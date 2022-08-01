@@ -1,0 +1,18 @@
+.centerNoBorder {
+  text-align: center;
+}
+
+
+.distanceTitle {
+    margin-top: 2em;
+
+}
+
+.distanceRules {
+    margin-top: 1.5em;
+}
+
+.distanceButtons {
+    margin-top: 5em;
+    margin-bottom: 0.25em;
+}
