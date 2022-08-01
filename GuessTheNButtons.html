@@ -20,22 +20,18 @@
       </div>
       <form> <!-- Amount of buttons (BUTTONS) -->
         <div class="mb-3">
-          <input type="text" class="textarea" id="exampleInputPassword1">
+          <input type="text" class="textarea" id="numberOfButtons">
         </div>
-        <button type="button" class="btn btn-outline-primary">Submit</button>
+        <button type="button" class="btn btn-outline-primary" onclick='return addButtons()'>Submit</button>
+            <!-- Acuma trb sa adaug butoane cate am in variabila numberOfButtons -->
       </form>
   </body>
 
   <script>
-    var winnerButton = Math.floor(Math.random() * 3) + 1;
-    function button1(clicked_id) {
-      var a = clicked_id;
-      if (winnerButton == a) {
-        alert("Congratulation, you won!");
-      } else {
-        alert("Wrong button! The winner button is: Button " + winnerButton +". Better luck next time!");
-      }
-    }
+  function addButtons() {
+    var numberOfButtons = document.getElementById("numberOfButtons").value;
+    alert(numberOfButtons);
+  }
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
