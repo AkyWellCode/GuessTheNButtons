@@ -13,6 +13,10 @@
 }
 
 .distanceButtons {
-    margin-top: 5em;
-    margin-bottom: 0.25em;
+    margin-top: 2.0em;
+    margin-bottom: 2.25em;
+}
+
+.font {
+  font-family: Helvetica, sans-serif;
 }
