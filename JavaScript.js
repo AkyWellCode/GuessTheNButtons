@@ -11,8 +11,7 @@ function addButtons() {
 }
 
 function guessButton(clicked_id) {
-  var clickedButton = clicked_id;
-  if(clickedButton == winnerButton) {
+  if(clicked_id == winnerButton) {
     $('#removePrevText').remove();
     $('#winOrLose').append(`
       <div id="removePrevText">
