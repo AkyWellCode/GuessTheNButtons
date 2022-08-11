@@ -3,7 +3,7 @@ var buttons = 1, winnerButton, text = document.createElement("text");
 function addButtons() {
   var insertButtons = document.getElementById("insertButtons"), numberOfButtons = document.getElementById("numberOfButtons").value, randomButton = Math.floor(Math.random() * numberOfButtons) + 1;
   winnerButton = randomButton.toString();
-  for (var i = 1; i <= numberOfButtons; ++i) {
+  for (let i = 1; i <= numberOfButtons; ++i) {
     var addButton = document.createElement("button");
     addButton.id = buttons;
     addButton.type = "button";
